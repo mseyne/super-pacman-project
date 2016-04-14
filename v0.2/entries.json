@@ -1,0 +1,281 @@
+[
+  {
+    "id": "0",
+    "name": "Global",
+    "type": "script"
+  },
+  {
+    "id": "1",
+    "name": "Game",
+    "type": null,
+    "children": [
+      {
+        "id": "10",
+        "name": "Game",
+        "type": "script"
+      },
+      {
+        "id": "9",
+        "name": "Scene",
+        "type": "scene"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Menu",
+    "type": null,
+    "children": [
+      {
+        "id": "11",
+        "name": "Menu",
+        "type": "script"
+      },
+      {
+        "id": "12",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "13",
+        "name": "Screens",
+        "type": null,
+        "children": [
+          {
+            "id": "16",
+            "name": "End",
+            "type": "sprite"
+          },
+          {
+            "id": "17",
+            "name": "Start",
+            "type": "sprite"
+          },
+          {
+            "id": "18",
+            "name": "Levels",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "name": "Buttons",
+        "type": null,
+        "children": [
+          {
+            "id": "15",
+            "name": "Buttons",
+            "type": "sprite"
+          },
+          {
+            "id": "19",
+            "name": "Levels",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Levels",
+    "type": null,
+    "children": [
+      {
+        "id": "20",
+        "name": "Tile Set",
+        "type": "tileSet"
+      },
+      {
+        "id": "21",
+        "name": "Template",
+        "type": null,
+        "children": [
+          {
+            "id": "22",
+            "name": "Tile Map",
+            "type": "tileMap"
+          }
+        ]
+      },
+      {
+        "id": "23",
+        "name": "Level1",
+        "type": null,
+        "children": []
+      },
+      {
+        "id": "24",
+        "name": "Level2",
+        "type": null,
+        "children": []
+      },
+      {
+        "id": "25",
+        "name": "Level3",
+        "type": null,
+        "children": []
+      },
+      {
+        "id": "26",
+        "name": "Level4",
+        "type": null,
+        "children": []
+      },
+      {
+        "id": "27",
+        "name": "Level5",
+        "type": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Pacman",
+    "type": null,
+    "children": [
+      {
+        "id": "28",
+        "name": "Pacman",
+        "type": "script"
+      },
+      {
+        "id": "29",
+        "name": "Move",
+        "type": "sprite"
+      },
+      {
+        "id": "31",
+        "name": "Life",
+        "type": "sprite"
+      },
+      {
+        "id": "30",
+        "name": "Death",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Ghosts",
+    "type": null,
+    "children": [
+      {
+        "id": "32",
+        "name": "Ghost",
+        "type": "script"
+      },
+      {
+        "id": "33",
+        "name": "Ghost1",
+        "type": "sprite"
+      },
+      {
+        "id": "34",
+        "name": "Ghost2",
+        "type": "sprite"
+      },
+      {
+        "id": "35",
+        "name": "Ghost3",
+        "type": "sprite"
+      },
+      {
+        "id": "36",
+        "name": "Ghost4",
+        "type": "sprite"
+      },
+      {
+        "id": "37",
+        "name": "Vulnerable",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Items",
+    "type": null,
+    "children": [
+      {
+        "id": "38",
+        "name": "Coins",
+        "type": null,
+        "children": [
+          {
+            "id": "39",
+            "name": "Small",
+            "type": "sprite"
+          },
+          {
+            "id": "40",
+            "name": "Big",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "41",
+        "name": "Fruits",
+        "type": null,
+        "children": [
+          {
+            "id": "42",
+            "name": "Fruits",
+            "type": "script"
+          },
+          {
+            "id": "43",
+            "name": "Sprite",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Sounds",
+    "type": null,
+    "children": [
+      {
+        "id": "49",
+        "name": "Music",
+        "type": "sound"
+      },
+      {
+        "id": "44",
+        "name": "MenuButton",
+        "type": "sound"
+      },
+      {
+        "id": "45",
+        "name": "EatCoin",
+        "type": "sound"
+      },
+      {
+        "id": "46",
+        "name": "EatGhost",
+        "type": "sound"
+      },
+      {
+        "id": "48",
+        "name": "EatFruit",
+        "type": "sound"
+      },
+      {
+        "id": "47",
+        "name": "PacmanDeath",
+        "type": "sound"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Font",
+    "type": "font"
+  }
+]
