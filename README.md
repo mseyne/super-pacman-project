@@ -4,6 +4,7 @@
 * [Chapter 2 - Setting the project structure : v2](v2)
 * [Chapter 3 - Setting the assets : v3](v3)
 * [Chapter 4 - Designing the levels : v4](v4)
+* [Chapter 5 - Composing the scenes : v5](v5)
 
 [Peer Production Licence][1]
 
