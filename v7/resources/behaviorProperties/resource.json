@@ -1,0 +1,34 @@
+{
+  "behaviors": {
+    "GameBehavior": {
+      "scriptId": "10",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MenuBehavior": {
+      "scriptId": "11",
+      "line": 1,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PacmanBehavior": {
+      "scriptId": "28",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "GhostBehavior": {
+      "scriptId": "32",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "FruitsBehavior": {
+      "scriptId": "42",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

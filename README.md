@@ -6,6 +6,7 @@
 * [Chapter 4 - Designing the levels : v4](v4)
 * [Chapter 5 - Composing the scenes : v5](v5)
 * [Chapter 6 - Scripting global game behavior : v6](v6)
+* [Chapter 7 - Scripting menu behavior : v7](v7)
 
 [Peer Production Licence][1]
 
