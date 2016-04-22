@@ -65,7 +65,7 @@ class GameBehavior extends Sup.Behavior {
     // Build the complete string for the current time
     Global.time = minute+':'+second;
     // Display it with the HUD/Timer text renderer
-    Global.HUD.getChild('Timer').textRenderer.setText("TIME : "+Global.time);
+    Global.HUD.getChild('Timer').textRenderer.setText("TIME:"+Global.time);
   }  
 
   update() {
