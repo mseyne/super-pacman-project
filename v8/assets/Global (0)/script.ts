@@ -2,7 +2,7 @@
 // Pax Fabrica - Learn creative development while revisiting video game history
 // @MichaelSeyne - mseyne.github.io
 // Peer Production Licence - Free and open for peers
-// Release Version 8 from Tutorial Chapter 8 : Scripting menu behavior
+// Release Version 8 from Tutorial Chapter 8 : Scripting level and start
 
 // This variable will be used to open a web url in a new window, it is not directly related to the game logic
 declare var window;
