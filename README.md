@@ -9,6 +9,7 @@
 * [Chapter 7 - Scripting menu behavior : v7](v7)
 * [Chapter 8 - Scripting level and start : v8](v8)
 * [Chapter 9 - Scripting pacman behavior : v9](v9)
+* [Chapter 10 - Scripting ghost and fruit behaviors : v10](v10)
 
 [Peer Production Licence][1]
 
