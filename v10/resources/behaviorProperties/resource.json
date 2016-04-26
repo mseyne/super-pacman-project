@@ -1,0 +1,57 @@
+{
+  "behaviors": {
+    "GameBehavior": {
+      "scriptId": "10",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MenuBehavior": {
+      "scriptId": "11",
+      "line": 1,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PacmanBehavior": {
+      "scriptId": "28",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "spawnPosition",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        }
+      ]
+    },
+    "GhostBehavior": {
+      "scriptId": "32",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "spawnPosition",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        }
+      ]
+    },
+    "FruitsBehavior": {
+      "scriptId": "42",
+      "line": 1,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        }
+      ]
+    }
+  }
+}
