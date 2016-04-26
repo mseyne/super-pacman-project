@@ -4,7 +4,7 @@ class FruitsBehavior extends Sup.Behavior {
   awake() {
     
   }
-  die(){}
+  eaten(){}
   update() {
     
   }

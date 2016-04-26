@@ -90,7 +90,7 @@ class PacmanBehavior extends Sup.Behavior {
         // Remove the fruit from the list
         Global.fruits.splice(Global.fruits.indexOf(fruit), 1);
         // Call a local function of the fruit script
-        fruit.die();
+        fruit.eaten();
       }
     }
   }
@@ -142,7 +142,7 @@ class PacmanBehavior extends Sup.Behavior {
     // Set the current position to the death actor
     death.setPosition(this.actor.getPosition());
     // Add a sprite renderer component and play once the death animation
-    new Sup.SpriteRenderer(death).setSprite("Pacman/Death/Sprite").setAnimation("death", false);
+    new Sup.SpriteRenderer(death).setSprite("Pacman/Death").setAnimation("death", false);
     // Timer before respawn
     this.respawnCooldown = 10;
   }
