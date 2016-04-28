@@ -233,9 +233,9 @@ class PacmanBehavior extends Sup.Behavior {
     
     // Keep pacman in the game screen on the x axis (tunnel)
     if (this.position.x < 0){
-      this.position.x = (Level.size.width * 10)+10;
+      this.position.x = (Level.size.width * 10)-10;
     }
-    if (this.position.x > (Level.size.width * 10)+10){
+    if (this.position.x > (Level.size.width * 10)-10){
       this.position.x = 0;
     }
     
